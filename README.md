@@ -1,50 +1,61 @@
-# React + TypeScript + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un **Portfolio Personal** desarrollado utilizando **React** y **TypeScript**, inspirado en el diseño minimalista de Apple.
 
-Currently, two official plugins are available:
+El objetivo es mostrar proyectos, habilidades y datos de contacto, ofreciendo una experiencia de usuario interactiva y profesional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 📂 ¿Cómo iniciar el proyecto?
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clona el repositorio**  
+   git clone https://github.com/IvanSoriano19/portfolio_Ivan.git  
+   cd mi-portfolio
 
-- Configure the top-level `parserOptions` property like this:
+2. **Instala las dependencias**  
+   npm install
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+3. **Ejecuta la aplicación en modo desarrollo**  
+   npm run dev
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+   El proyecto se iniciará en: http://localhost:5173
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🎨 Características del Portfolio
+
+- ✅ Animaciones fluidas al hacer scroll usando **Framer Motion**  
+- ✅ Diseño responsivo y optimizado para todos los dispositivos  
+- ✅ Interfaz inspirada en Apple con transiciones dinámicas  
+- ✅ Secciones: Inicio, Sobre mí, Proyectos y Contacto  
+- ✅ Scroll dinámico: Las secciones aparecen y desaparecen al hacer scroll  
+
+
+## 🚀 Tecnologías Utilizadas
+
+### 🖥️ Frameworks & Librerías
+- **ReactJS**
+- **TypeScript**
+- **TailwindCSS**
+
+### 🛠️ Herramientas de Desarrollo
+- **Vite** → Para inicializar y compilar el proyecto  
+- **Visual Studio Code** → Como editor de código principal  
+- **Git & GitHub** → Para control de versiones y repositorio  
+
+
+## ⚡ Despliegue
+
+🚀 El proyecto será desplegado en **GitHub Pages** o **Vercel** una vez finalizado.  
+
+Actualmente, se encuentra en desarrollo activo.
+
+
+## 💡 Próximas mejoras
+
+- 🌟 Añadir un formulario de contacto funcional  
+- 🌟 Optimizar el rendimiento para dispositivos móviles  
+- 🌟 Implementar secciones interactivas y parallax scroll  
+- 🌟 Conectar con una API para mostrar proyectos dinámicos
+
+
+## ☕ Gracias por visitar este proyecto!  
+Si te gusta el diseño o tienes sugerencias, no dudes en crear un issue o hacer un fork. 🚀
